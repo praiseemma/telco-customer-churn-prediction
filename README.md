@@ -16,13 +16,13 @@ Using IBM's Telco Customer Churn dataset (7,043 customers), this project answers
 
 3. **Act** — what specific, prioritized retention actions follow from the findings?
 
-The project covers the full data science workflow: data cleaning, exploratory analysis, feature engineering, predictive modeling, individual-level model interpretability, and a deployed interactive tool — packaged into a client-ready report, slide deck, and live dashboard.
+The project covers the full data science workflow: data cleaning, exploratory analysis, feature engineering, predictive modeling, individual-level model interpretability, and a deployed interactive tool packaged into a client-ready report, slide deck, and live dashboard.
 
 ## Key Findings
 
-- **Contract type is the strongest single lever.** Month-to-month customers churn at **42.7%**, compared to just **2.8%** for two-year contract holders — over 15x higher. Most of the retention benefit comes from moving customers into *any* fixed-term contract, not maximizing contract length.
+- **Contract type is the strongest single lever.** Month-to-month customers churn at **42.7%**, compared to just **2.8%** for two-year contract holders over 15x higher. Most of the retention benefit comes from moving customers into *any* fixed-term contract, not maximizing contract length.
 
-- **Three risk factors compound independently.** Contract type, internet service (Fiber optic), and payment method (Electronic check) each raise churn risk on their own — and stack when combined. Customers with Fiber optic on a month-to-month contract churn at **54.6%**, the highest-risk segment identified.
+- **Three risk factors compound independently.** Contract type, internet service (Fiber optic), and payment method (Electronic check) each raise churn risk on their own and stack when combined. Customers with Fiber optic on a month-to-month contract churn at **54.6%**, the highest-risk segment identified.
 
 - **Churn is front-loaded.** Nearly half of all churn happens within a customer's first 12 months, and this effect is concentrated among month-to-month customers specifically.
 
@@ -91,7 +91,7 @@ The dashboard lets you input a customer's details (tenure, contract, internet se
 
 ## Dataset
 
-[IBM Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn) — 7,043 customers, 21 original features, publicly available on Kaggle for educational and portfolio use.
+The dataset used was [IBM Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn) and it contains 7,043 customers, 21 original features, publicly available on Kaggle for educational and portfolio use.
 
 ## Limitations & Next Steps
 
