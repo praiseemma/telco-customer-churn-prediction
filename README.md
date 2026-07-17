@@ -2,7 +2,7 @@
 
 A data-driven analysis of customer churn for a telecommunications provider identifying why customers leave, predicting which current customers are at risk, and translating both into concrete retention recommendations.
 
-[Try the live dashboard →](telco-customer-churn-prediction-jghp846mpamhxgnlu4vnxm.streamlit.app)
+[Try the live dashboard →](https://telco-customer-churn-prediction-jghp846mpamhxgnlu4vnxm.streamlit.app)
 
 
 
