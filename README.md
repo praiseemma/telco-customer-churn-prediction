@@ -2,9 +2,7 @@
 
 A data-driven analysis of customer churn for a telecommunications provider identifying why customers leave, predicting which current customers are at risk, and translating both into concrete retention recommendations.
 
-[Try the live dashboard →](https://telco-customer-churn-prediction-jghp846mpamhxgnlu4vnxm.streamlit.app)
-
-
+[Try the live dashboard →](https://telco-customer-churn-prediction-jghp846mpamhxgnlu4vnxm.streamlit.app/)
 
 ## Project Summary
 
@@ -30,7 +28,7 @@ The project covers the full data science workflow: data cleaning, exploratory an
 
 - **The model doesn't just score risk, it explains it.** For any customer, the model can break down *why* they're flagged as high-risk, enabling retention offers tailored to the actual cause rather than a generic response.
 
-Full findings, methodology, and caveats are in the [written report](https://github.com/praiseemma/telco-customer-churn-prediction/blob/main/report/Telco%20Churn%20Consolidated%20Report.pdf).
+Full findings, methodology, and caveats are in the [written report](file:///C:/Users/Praiseemma/Documents/GitHub/telco-customer-churn-prediction/report/).
 
 ## Tech Stack
 
@@ -57,29 +55,28 @@ Both models achieve similar discriminative power (ROC-AUC ≈ 0.83–0.84); the 
 ## Repository Structure
 
 ```
-├── README.md  
-├── notebooks/  
-│   ├── 01\_eda.ipynb                       \# Cleaning + univariate/bivariate/multivariate EDA  
-│   ├── 02\_logistic\_regression.ipynb       \# Baseline model, VIF, coefficients  
-│   └── 03\_random\_forest.ipynb             \# Stronger model, threshold tuning, SHAP  
-├── report/  
-│   └── Telco\_Churn\_Consolidated\_Report.docx  
-├── slides/  
-│   └── Telco\_Churn\_Slide\_Deck.pptx  
-├── dashboard/  
-│   ├── app.py                             \# Streamlit app  
-│   ├── requirements.txt  
-│   ├── churn\_model.pkl                    \# Trained Random Forest model  
-│   └── scaler.pkl                         \# Fitted StandardScaler  
-└── docs/  
-    └── dashboard\_preview.png              \# Screenshot for this README
+├── README.md    
+├── notebooks/    
+│   ├── 01\\\_eda.ipynb                       \\\# Cleaning + univariate/bivariate/multivariate EDA    
+│   ├── 02\\\_logistic\\\_regression.ipynb       \\\# Baseline model, VIF, coefficients    
+│   └── 03\\\_random\\\_forest.ipynb             \\\# Stronger model, threshold tuning, SHAP    
+├── report/    
+│   └── Telco\\\_Churn\\\_Consolidated\\\_Report.docx    
+├── slides/    
+│   └── Telco\\\_Churn\\\_Slide\\\_Deck.pptx    
+├── app.py                             \\\# Streamlit app    
+├── requirements.txt    
+├── churn\\\_model.pkl                    \\\# Trained Random Forest model    
+└── scaler.pkl                         \\\# Fitted StandardScaler    
+└── docs/    
+    └── dashboard\\\_preview.png              \\\# Screenshot for this README
 ```
 
 ## Running the Dashboard Locally
 
 ```
-cd dashboard  
-pip install -r requirements.txt  
+cd dashboard    
+pip install -r requirements.txt    
 streamlit run app.py
 ```
 
