@@ -29,7 +29,7 @@ The project covers the full data science workflow: data cleaning, exploratory an
 
 - **The model doesn't just score risk, it explains it.** For any customer, the model can break down *why* they're flagged as high-risk, enabling retention offers tailored to the actual cause rather than a generic response.
 
-Full findings, methodology, and caveats are in the [written report](file:///C:/Users/Praiseemma/Documents/GitHub/telco-customer-churn-prediction/report/).
+Full findings, methodology, and caveats are in the [written report](https://github.com/praiseemma/telco-customer-churn-prediction/blob/main/report/Telco%20Churn%20Consolidated%20Report.pdf).
 
 ## Tech Stack
 
