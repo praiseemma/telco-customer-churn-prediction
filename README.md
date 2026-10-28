@@ -75,8 +75,7 @@ Both models achieve similar discriminative power (ROC-AUC ≈ 0.83–0.84); the 
 
 ## Running the Dashboard Locally
 
-```
-cd dashboard    
+```  
 pip install -r requirements.txt    
 streamlit run app.py
 ```
